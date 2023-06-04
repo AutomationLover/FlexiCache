@@ -1,5 +1,5 @@
 import boto3
-from simplecache import Cache, MemoryCache, FileCache, DDBCache
+from flexicache import Cache, MemoryCache, FileCache, DDBCache
 
 
 # pip install flexicache
