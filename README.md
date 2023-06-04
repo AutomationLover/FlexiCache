@@ -117,6 +117,8 @@ class MyCache(CacheStrategy):
         # Implement logic to store the value for the key in your storage backend
         pass
 ```
+## Next Version
+To provide config file, which defines the default value e.g. default file path and file name, default AWS DDB Client, and default DDB table name.
 
 ## License
 
