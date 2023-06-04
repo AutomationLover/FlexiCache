@@ -14,6 +14,9 @@ venv/
 # Compiled Python bytecode
 *.py[cod]
 
+*.pytest_cache/
+*.json
+
 # Log files
 *.log
 
@@ -23,10 +26,13 @@ venv/
 # Maven
 target/
 dist/
-
+build/
 # JetBrains IDE
 .idea/
 .git/
+
+*.egg-info/
+
 # Unit test reports
 TEST*.xml
 
